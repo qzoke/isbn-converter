@@ -1,12 +1,20 @@
 <?php
+
+/**
+ * Contributions by: Nirpendra Patel
+ *
+ * @author Nirpendra Patel <patelnirpendra1994@gmail.com>
+ * @license GNU GPL v3.0
+ * @version 1.0
+ * @package isbn-converter
+ **/
+
+
 function checkisbn13($isbn_13){
 	$isbn_13 = trim($isbn_13);
 	if(strlen($isbn_13)==13){
 		return true;
 	}
-//	else if($isbn_13=""){
-//		return 
-//	}
 	else{
 		return false;
 	}
